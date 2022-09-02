@@ -1,0 +1,11 @@
+Arduino：
+　　loop外設定一個fun，用以random出20筆資料
+　　loop內呼叫fun，再將fun裡產生的20筆資料print
+　　時間設置每5秒一次
+Python：
+　　寫入USB孔名字(每台電腦不一樣)，作業繳交使用COM3
+　　然後在while迴圈內讀入每一筆資料，利用decode將資料轉為str，split切割出未經分割的20筆資料
+　　再將多餘字符以replace替換掉
+　　以for迴圈分別output出20筆資料
+　　完成:)
+

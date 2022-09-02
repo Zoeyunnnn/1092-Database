@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="3">     <!--web refresh-->
+    <title>Document</title>
+</head>
+<body>
+    {% for data in data %}
+        <h3>溫溼度感測值:{{data.1}}</h3>
+    {% endfor %}
+    {% for time in date %}
+        <h3>時間:{{time.1}}</h3>
+    {% endfor %}
+</body>
+</html>
